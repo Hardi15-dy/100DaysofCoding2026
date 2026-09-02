@@ -1,11 +1,18 @@
 import java.util.Scanner;
 public class nilaiAkhir {
 	public static void main(String[] args) {
+
+        // ini adalah comment biasa
+
+        /* ini adalah comment multi line */
+
+        /**ini adalah comment javadoc */
+
 		Scanner in = new Scanner (System.in);
 		
 		int mtk,ddp,pkn;
 		
-        // ini adalah program untuk menghitung nilai akhir dari 3 mata kuliah
+        // ini adalah program untuk menghitung nilai akhir dari 3 mata kuliah       comment biasa
 		System.out.printf("Masukkan nilai MK mtk : ");
 		mtk = in.nextInt();
 		
@@ -16,7 +23,7 @@ public class nilaiAkhir {
 		pkn = in.nextInt();
 		
         /*
-         * Menghitung nilai akhir berdasarkan bobot masing-masing mata kuliah
+         * Menghitung nilai akhir berdasarkan bobot masing-masing mata kuliah       multi lane
          */
 		double h = mtk * 30.0 / 100;
 		double h2 = ddp * 40.0 / 100;
@@ -25,7 +32,7 @@ public class nilaiAkhir {
 		double total = h + h2 + h3;
 		
         /**
-         * Menampilkan hasil perhitungan nilai akhir          
+         * Menampilkan hasil perhitungan nilai akhir         (javadoc)
          * */
 		System.out.printf("dengan mengambil%nnilai 30%% dari mtk%nnilai 40%% dari ddp%nnilai 30%% dari pkn ");
 		

@@ -32,9 +32,9 @@ public class soal5 {
 
         System.out.println("===== OUTPUT =====");
         System.out.println("Nama          : "+nama);
-        System.out.println("Umur          : "+umur);
-        System.out.println("Tinggi        : "+tinggi);
-        System.out.println("Berat         : "+berat);
+        System.out.println("Umur          : "+umur+"tahun");
+        System.out.println("Tinggi        : "+tinggi+" cm");
+        System.out.println("Berat         : "+berat+" kg");
         System.out.println("Jenis Kelamin : "+kelamin);
         System.out.println("NO WA         : "+no);
     }

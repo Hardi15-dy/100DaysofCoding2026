@@ -26,7 +26,7 @@ public class soal5 {
         char kelamin = sc.next().charAt(0);
         sc.nextLine();
 
-        System.out.print("Masukkan No WA Anda : ");
+        System.out.print("Masukkan No Telepon Anda : ");
         String no = sc.nextLine();
         System.out.println("\n");
 
@@ -36,6 +36,6 @@ public class soal5 {
         System.out.println("Tinggi        : "+tinggi+" cm");
         System.out.println("Berat         : "+berat+" kg");
         System.out.println("Jenis Kelamin : "+kelamin);
-        System.out.println("NO WA         : "+no);
+        System.out.println("NO Telepon    : "+no);
     }
 }

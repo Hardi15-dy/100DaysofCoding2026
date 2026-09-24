@@ -1,4 +1,4 @@
-import java.util.Scanner;
+iimport java.util.Scanner;
 
 public class day23 {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class day23 {
 		sisi = in.nextInt();
 		in.nextLine();
 		
-		//Rumus mencari luas lingkaran yaitu L = sisi × sisi
+		//Rumus mencari luas persegi yaitu L = sisi × sisi
 		luas = sisi*sisi;
 		
 		System.out.printf("Jadi luas dari persegi%ndengan sisi %dcm adalah : %dcm",sisi,luas);

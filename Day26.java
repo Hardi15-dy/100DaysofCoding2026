@@ -10,7 +10,7 @@ public class final1 {
 
         System.out.println("Berhasil di tarik       : Rp"+(b/100000*100000));
         System.out.println("jumlah lembar Rp100000  : "+(b/100000));
-        System.out.println("Gagal ditarik tarik     : Rp"+(b % 100000));
+        System.out.println("Gagal ditarik           : Rp"+(b % 100000));
 
     }
 }

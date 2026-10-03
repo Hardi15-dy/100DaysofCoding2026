@@ -20,7 +20,7 @@ public class day32Latihan {
             System.out.println("Anda sudah cukup umur dan punya SIM untuk mengemudi");
 
         }else {
-            System.out.println("Untuk mengemudi, umur harus di atas atau 17 tahun dan mempunyai SIM : ");
+            System.out.println("Untuk mengemudi, umur harus di atas atau 17 tahun dan mempunyai SIM");
         }
     }
 }
